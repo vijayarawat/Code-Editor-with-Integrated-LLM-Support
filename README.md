@@ -1,3 +1,5 @@
+## Code Editor with Integrated LLM Support
+
 # Frontend Project
 
 A full-stack web application consisting of a React frontend and Node.js backend, designed for coding practice and online programming challenges.
@@ -7,7 +9,7 @@ A full-stack web application consisting of a React frontend and Node.js backend,
 ```
 frontEnd/
 ├── frontend/          # React + Vite frontend application
-├── leetcode/          # Node.js + Express backend API
+├── backend/          # Node.js + Express backend API
 └── README.md          # This file
 ```
 
@@ -23,7 +25,7 @@ frontEnd/
 - **Routing**: React Router v7
 - **Dev Tools**: ESLint, Hot Module Replacement
 
-### Backend (`/leetcode`)
+### Backend (`/backend`)
 - **Runtime**: Node.js with Express.js
 - **Database**: MongoDB with Mongoose ODM
 - **Authentication**: JWT (JSON Web Tokens)
